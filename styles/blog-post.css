@@ -55,7 +55,7 @@ article {
 aside {
   display: grid;
   width: 250px;
-  height: 500px;
+  height: auto;
 }
 
 .aside-box {
@@ -83,5 +83,9 @@ aside {
 
   article {
     border-bottom: none;
+  }
+
+  aside {
+    max-height: 500px;
   }
 }
