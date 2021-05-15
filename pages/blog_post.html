@@ -2,11 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/blog-post.css">
+    <script
+      src="https://kit.fontawesome.com/25ed0abb3f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Blog Post</title>
   </head>
   <body>
-    Blog Post
+    <div class="page">
+      <header class="page-header">
+        <a href="#">Subscribe</a>
+        <h1>Blog Title</h1>
+        <button class="search"><i class="fas fa-search"></i></button>
+      </header>
+
+      <div class="post-container">
+        <article>
+          <header>
+            <h1>Sample Blog Post</h1>
+            <div class="date">January1, 2021 by <a href="../index.html">Henry</a></div>
+          </header>
+          <div class="container">
+            <p id=para1>This blog post shows a few different types of content that's supported
+              and styled with Bootstrap. Basic typography, images and code are all supported.
+            </p>
+            <p>The <b>HyperText Markup Language</b>, or <b>HTML</b>  is the standard markup language for 
+              documents designed to be displayed in a web browser. It can be assisted by 
+              technologies such as Cascading Style Sheets (CSS) and scripting languages 
+              such as JavaScript. 
+            </p>
+            <h2>Development</h2>
+            <p>In 1980, physicist 
+              <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, a contractor at CERN, proposed and 
+              prototyped ENQUIRE, a system for CERN researchers to use and share documents. 
+              In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system.
+              Berners-Lee specified HTML and wrote the browser and server software in late 1990. 
+              That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated 
+              on a joint request for funding, but the project was not formally adopted by CERN. 
+              In his personal notes from 1990 he listed "some of the many areas in which 
+              hypertext is used" and put an encyclopedia first.
+            </p>
+            <h3>HTML5</h3>
+            <p>Main article:<a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a></p>
+            <ul>
+              <li>October 28, 2014: HTML5 was published as a W3C Recommendation.</li>
+              <li>November 1, 2016: HTML 5.1 was published as a W3C Recommendation.</li>
+              <li>December 14, 2017: HTML 5.2 was published as a W3C Recommendation.</li>
+            </ul>
+            <h2>Markup</h2>
+            <p>HTML markup consists of several key components, including those called tags (and their attributes), 
+              character-based data types, character references and entity references. 
+            </p>
+            <div>
+                <pre class="html-code">
+<span></span><span>&lt;!DOCTYPE html&gt;</span>
+<span>&lt;html&gt;</span>
+  <span>&lt;head&gt;</span>
+    <span>&lt;title&gt;This is a title.&lt;/title&gt;</span>
+<span>&lt;/head&gt;</span>
+  <span>&lt;body&gt;</span>
+  <span>&lt;/body&gt;</span>
+<span>&lt;/html&gt;</span>
+</pre>
+            </div>
+            <p>In summary, the HTML 4 specification primarily reined in all the various HTML implementations 
+              into a single clearly written specification based on SGML. XHTML 1.0, ported this specification, 
+              as is, to the new XML defined specification. Next, XHTML 1.1 takes advantage of the extensible 
+              nature of XML and modularizes the whole specification. XHTML 2.0 was intended to be the first 
+              step in adding new features to the specification in a standards-body-based approach. 
+            </p>
+          </div>
+          <footer>
+            <button class="btn">
+              Older Post
+            </button>
+            <button class="btn disabled" disabled>
+              Newer Post
+          </footer>
+        </article>
+        <aside>
+          <div class="aside-box about">
+            <h3>About</h3>
+            <p>An example blog post, sans design systemassachusetts. University of California, Los Angeles, is another institute 
+              worthy of recognition. Locat</p>
+          </div>
+          <div class="aside-box archives">
+            <h3>Archives</h3>
+            <ul>
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ul>
+          </div>
+          <div class="aside-box elsewhere">
+            <h3>Elsewhere</h3>
+            <ul>
+              <li><a href="https://github.com/">Github</a></li>
+              <li><a href="https://twitter.com/">Twitter</a></li>
+              <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <footer class="page-footer">
+        <div>BLog template built for <a href="#">Boorstrap</a></div>
+      </footer>
+    </div>
+  </body>
   </body>
 </html>
