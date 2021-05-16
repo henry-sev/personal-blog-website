@@ -1,7 +1,7 @@
 .post-container {
   display: grid;
   grid-gap: 20px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   padding: 0 10px;
   line-height: 1.5em;
@@ -94,6 +94,12 @@ aside {
 
 .author-info li {
   border-bottom: 4px solid #eee;
+}
+
+@media (min-width: 768px) {
+  .post-container {
+    width: 60%;
+  }
 }
 
 @media (min-width: 900px) {
