@@ -1,0 +1,36 @@
+aside {
+  display: grid;
+  width: 250px;
+  height: auto;
+}
+
+.aside-box {
+  padding: 10px;
+}
+
+.aside-box h3 {
+  /* font-style: italic; */
+  line-height: 2em;
+}
+
+.aside-box ul {
+  list-style-type: none;
+}
+
+.about {
+  background-color: #f9f9f9;
+}
+
+.avatar img {
+  border-radius: 25%;
+}
+
+.author-info li {
+  border-bottom: 4px solid #eee;
+}
+
+@media (min-width: 900px) {
+  aside {
+    max-height: 500px;
+  }
+}

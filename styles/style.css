@@ -1,5 +1,6 @@
 @import url(./index.css);
-@import url(./blog-post.css);
+@import url(./blog-post-main.css);
+@import url(./blog-post-aside.css);
 
 * {
   margin: 0;
