@@ -42,6 +42,12 @@ article {
   padding: 0 0 10px 2em;
 }
 
+.container blockquote {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #e8e8e8;
+}
+
 #para1 {
   border-bottom: 1px solid #e8e8e8;
 }
@@ -63,7 +69,7 @@ aside {
 }
 
 .aside-box h3 {
-  font-style: italic;
+  /* font-style: italic; */
   line-height: 2em;
 }
 

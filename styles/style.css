@@ -28,10 +28,6 @@ body {
   align-items: center;
 }
 
-.page-header h1 {
-  text-decoration: underline;
-}
-
 .page-header a {
   color: #818890;
 }
