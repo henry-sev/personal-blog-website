@@ -48,6 +48,13 @@ article {
   background-color: #e8e8e8;
 }
 
+.container figure {
+  margin: 0 auto;
+  max-width: 220px;
+  text-align: center;
+  border: 4px double #e8e8e8;
+}
+
 #para1 {
   border-bottom: 1px solid #e8e8e8;
 }
