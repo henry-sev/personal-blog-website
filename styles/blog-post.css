@@ -88,6 +88,14 @@ aside {
   background-color: #f9f9f9;
 }
 
+.avatar img {
+  border-radius: 25%;
+}
+
+.author-info li {
+  border-bottom: 4px solid #eee;
+}
+
 @media (min-width: 900px) {
   .post-container {
     display: grid;
